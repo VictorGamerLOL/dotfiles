@@ -1,0 +1,11 @@
+[user]
+	name = VictorGamerLOL
+	email = nicetry@gmail.com
+	signingkey = F3F07080445695E5
+[url "https://"]
+	insteadOf = git://
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

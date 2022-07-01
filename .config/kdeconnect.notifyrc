@@ -1,0 +1,12 @@
+[Event/notification]
+Action=Popup
+Execute=
+Logfile=
+Sound=/usr/share/sounds/Oxygen-Sys-App-Message.ogg
+TTS=
+
+[Event/remoteLockFailure]
+Execute=
+Logfile=
+Sound=
+TTS=

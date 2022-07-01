@@ -1,0 +1,14 @@
+[AboutBugReportingDialog]
+HDMI-0 Height 2560x1440=364
+HDMI-0 Width 2560x1440=620
+
+[General]
+HDMI-0 Height 2560x1440=420
+HDMI-0 Width 2560x1440=746
+
+[ReportInformationDialog]
+HDMI-0 Height 2560x1440=385
+HDMI-0 Width 2560x1440=466
+
+[SystemInformation]
+CompiledSources=false

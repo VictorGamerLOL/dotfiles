@@ -19,6 +19,8 @@ font pango:monospace 8
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
+
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -210,6 +212,11 @@ for_window [class="Plasmoidviewer"] floating enable; border none
 for_window [class="plasmashell" window_type="notification"] border none, move right 700px, move down 450px
 no_focus [class="plasmashell" window_type="notification"]
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
+
+## More floating windows
+
+#Image viewer
+for_window [class="qView"] floating enable
 
 # The services I use for my walmart DE
 exec_always --no-startup-id nitrogen --restore &

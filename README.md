@@ -14,4 +14,6 @@ Required packages if you want to use zsh:
 
 `starship`
 
+And you gonna need to make an `openaiapirc` in your .config with your OpenAI api credentials for zsh_codex
+
 Anything else is use it or not.

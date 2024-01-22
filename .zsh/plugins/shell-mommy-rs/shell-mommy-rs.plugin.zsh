@@ -1,4 +1,4 @@
-export SHELL_MOMMYS_ON=true
+export SHELL_MOMMYS_ON=false
 export SHELL_MOMMYS_LITTLE=boy
 export SHELL_MOMMYS_PRONOUNS=her
 export SHELL_MOMMYS_ROLES=mommy
